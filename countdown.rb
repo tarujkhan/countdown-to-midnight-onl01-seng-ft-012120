@@ -1,4 +1,19 @@
 #write your code here
 
-def countdown
+def countdown(x)
+   while x > 0 do
+    puts "#{x}SECOND(s)!"
+    x -= l
+  end
+  puts "HAPPY NEW YEAR!"
+end
+
+def countown_with_sleep(x)
+  
+  while x > 0 do
+   puts "#{x}SECOND(S)!"
+    x -= l
+   sleep 1
+  end
+  puts "HAPPY NEW YEAR!"
 end
